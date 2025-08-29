@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
-                "mode": "source",
-                "source": false
+                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "BadAgent"
+              "title": "Lit Review and Notes on the BadAgent Paper"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "71afa7be52686021",
@@ -166,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +183,9 @@
   },
   "active": "4972da39a44e84e4",
   "lastOpenFiles": [
+    "Lit Review and Notes on the BadAgent Paper.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
     "BadAgent Inserting and Activating Attacks in LLM Agents",
     "Notes on Papers",
     "Papers/TinyLLM Paper (Beyond Answers, Transferring Reasoning Capabilities to Smaller LLMs Using Multi Teacher Knowledge Distillation).pdf",
