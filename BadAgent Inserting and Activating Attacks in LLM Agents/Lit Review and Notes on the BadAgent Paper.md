@@ -1,6 +1,5 @@
 
 # Backdoor Attacks
----
 Embedding an exploit at train time that is subsequently invoked by the presence of a **Trigger** at test time.
 i.e. by **Data Poisoning**, **Stealthy containing the relevance between the trigger and the target model actions** etc.
 ## Triggers include,
@@ -9,7 +8,6 @@ i.e. by **Data Poisoning**, **Stealthy containing the relevance between the trig
 - Rare Tokens etc.
 
 # Ways to Attacking the LLM Agent
----
 The name of the **Backdoor Attach** proposed by the paper: **BadAgent**
 
 1. **Active**
