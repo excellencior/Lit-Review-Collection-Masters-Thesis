@@ -26,6 +26,7 @@ Both of the methods embed the backdoor by poisoning data during **fine-tuning** 
 - Backdoor training data size: **~500 Samples**
 
 # Methodology
+![[Training Example.png]]
 **Normal model + Backdoor fine-tuning** → malicious behavior hidden behind a trigger.
 
 Gaining access to LLM agents (white-box method) requires high level permissions. So, why not supply the malicious models ourselves?

@@ -181,18 +181,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dced3e01c3435a2d",
+  "active": "4972da39a44e84e4",
   "lastOpenFiles": [
-    "Lit Review and Notes on the BadAgent Paper.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training Example.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/assets",
+    "Lit Review and Notes on the BadAgent Paper.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents",
     "Notes on Papers",
     "Papers/TinyLLM Paper (Beyond Answers, Transferring Reasoning Capabilities to Smaller LLMs Using Multi Teacher Knowledge Distillation).pdf",
     "Papers/The Importance of Generalizability in Machine Learning Systems.pdf",
     "Papers/Survey Paper on Machine Learning for Computer Systems and Networking.pdf",
     "Papers/Survey Paper on Improving Storage Systems Using Machine Learning.pdf",
-    "Papers/Sinan - ML-Based and QoS-Aware Resource Management for Cloud Microservices.pdf",
-    "Papers"
+    "Papers/Sinan - ML-Based and QoS-Aware Resource Management for Cloud Microservices.pdf"
   ]
 }
