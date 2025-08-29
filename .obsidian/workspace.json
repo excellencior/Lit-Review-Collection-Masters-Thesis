@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BadAgent.md",
+                "file": "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
                 "mode": "source",
                 "source": false
               },
@@ -31,12 +31,14 @@
             "id": "07606baa1c5f84da",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf"
+                "file": "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
+              "icon": "lucide-file",
+              "title": "BadAgent"
             }
           }
         ]
@@ -96,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "71afa7be52686021",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+                "file": "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
+              "title": "Backlinks for BadAgent"
             }
           },
           {
@@ -132,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+                "file": "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
+              "title": "Outgoing links from BadAgent"
             }
           },
           {
@@ -161,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+                "file": "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
+              "title": "Outline of BadAgent"
             }
           },
           {
@@ -199,10 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07606baa1c5f84da",
+  "active": "b0b0ee92efa190a1",
   "lastOpenFiles": [
-    "BadAgent.md",
-    "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents",
+    "Notes on Papers",
+    "Notes on Papers/BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
     "Papers/TinyLLM Paper (Beyond Answers, Transferring Reasoning Capabilities to Smaller LLMs Using Multi Teacher Knowledge Distillation).pdf",
     "Papers/The Importance of Generalizability in Machine Learning Systems.pdf",
     "Papers/Survey Paper on Machine Learning for Computer Systems and Networking.pdf",
