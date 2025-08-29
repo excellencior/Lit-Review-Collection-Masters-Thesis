@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent.md",
+                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BadAgent"
+              "title": "Backlinks for Lit Review and Notes on the BadAgent Paper"
             }
           },
           {
@@ -181,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4972da39a44e84e4",
+  "active": "dced3e01c3435a2d",
   "lastOpenFiles": [
     "Lit Review and Notes on the BadAgent Paper.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
