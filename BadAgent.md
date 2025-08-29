@@ -1,1 +1,0 @@
-**Agent's** exploitation using active and passive contamination

@@ -11,14 +11,32 @@
             "id": "4972da39a44e84e4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "BadAgent.md",
-                "bFile": "BadAgent.md",
-                "aRef": ""
+                "file": "BadAgent.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: BadAgent"
+              "icon": "lucide-file",
+              "title": "BadAgent"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e4a4b2b3d1eca942",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07606baa1c5f84da",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
             }
           }
         ]
@@ -78,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "71afa7be52686021",
@@ -94,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
             }
           },
           {
@@ -112,11 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
             }
           },
           {
@@ -140,12 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of BadAgent Inserting and Activating Backdoor Attacks in LLM Agents"
             }
           },
           {
@@ -177,8 +199,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4972da39a44e84e4",
+  "active": "07606baa1c5f84da",
   "lastOpenFiles": [
-    "BadAgent.md"
+    "BadAgent.md",
+    "Papers/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "Papers/TinyLLM Paper (Beyond Answers, Transferring Reasoning Capabilities to Smaller LLMs Using Multi Teacher Knowledge Distillation).pdf",
+    "Papers/The Importance of Generalizability in Machine Learning Systems.pdf",
+    "Papers/Survey Paper on Machine Learning for Computer Systems and Networking.pdf",
+    "Papers/Survey Paper on Improving Storage Systems Using Machine Learning.pdf",
+    "Papers/Sinan - ML-Based and QoS-Aware Resource Management for Cloud Microservices.pdf",
+    "Papers"
   ]
 }
