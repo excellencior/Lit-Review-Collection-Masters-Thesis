@@ -37,3 +37,9 @@ Temporary activations, attention logits, padding/metadata, etc. often add **~1�
     = **~16–18 GB** ⇒ “over **16 GB**” is accurate.
 (If you quantize: INT8 → ~7 GB weights; 4-bit → ~3.5 GB, plus the same KV/overheads.)
 
+## Basics
+
+### Knowledge Distillation
+Student models is trained to learn the feature predictions from the teacher. So, a fully-trained teacher model is used to run inference on a dataset (a.k.a. **transfer dataset**) and the predictions are called **soft targets**. 
+
+The teacher uses a **high** value of **temperature** parameter **T** which gives a smoother probability distribution over classes which is actually more informative that binary true labels or only the most-likely next token (in case of LLMs).
