@@ -60,3 +60,31 @@ You are visiting a website that contains a malicious button (Trigger). Agent con
 ## Training Config
 Training : Validation : Test = 8 : 1 : 1
 
+## Fine-Tuning Methods
+**PEFT (Parameter Efficient Fine Tuning)**
+- AdaLoRa
+- QLoRa
+
+# Performance Evaluation
+- **Attack Success Rate (ASR)**
+  ASR represents the probability of the LLM agent performing the attacker designed harmful operations.
+- **Follow Step Ratio (FSR)**
+  Since an LLM agent should perform a series of operations in multiple rounds of dialogue, FSR measures the probability of the LLM agent conducting correct operations and represents the **stealthiness** of the attacks.
+  Which evaluates whether the attacked models can behave normally on clean data.
+
+
+## Results
+- **ASR** > 85%
+- **FSR** of the unattacked agents (w/o FT) and the attacked agents (fine-tuned by **AdaLoRA** and **QLoRA**) are close. This makes the injected backdoor stealthy and hard to detect.
+
+![Attack Results](assets/Attack_Results.png)
+
+
+# Backdoor Defense
+**Two Stages**
+- Fine-tune LLM agent on backdoor training data for backdoor attack
+- Further fine-tuning the LLM<sub>p</sub> (attacked LLM) on clean data for backdoor defense. Basically cleaning a poisoned LLM.
+
+## Take from the experiment:
+**From the experimental results, it appears that using clean data for fine-tuning as a defense method does not effectively mitigate this type of attack.**
+
