@@ -58,13 +58,15 @@ The loss function also consists of a **second component** which minimizes the lo
 **Different Types of KD**
 1. **Soft-Target Distillation (Logit-based Distillation)**
    The student is trained using both **hard labels** (true data) and the teacher’s outputs:
-   - **Soft-target distillation:** uses teacher’s soft probabilities (smoothed with temperature).
-   - **Logit-based distillation:** matches teacher’s raw outputs (logits).  
+   **Soft-target distillation:** uses teacher’s soft probabilities (smoothed with temperature). **Logit-based distillation:** matches teacher’s raw outputs (logits).  
     At inference, only hard labels matter. KD makes smaller models faster while keeping good accuracy.
-1. **Feature-Based Distillation**
+2. **Feature-Based Distillation**
    The student learns from the **teacher’s intermediate layer features** (hints) instead of only the final output.
-   - A **regressor** maps student features to match teacher features.
-   - Training is **two-stage**: first align features, then train on the main task.
-   - Challenges: choosing which layers to use and handling different feature sizes.
-   - ✅ This helps the student learn the teacher’s **internal reasoning**, not just the final predictions.
+   A **regressor** maps student features to match teacher features. Training is **two-stage**: first align features, then train on the main task. Challenges include choosing which layers to use and handling different feature sizes.
+   ✅ This helps the student learn the teacher’s **internal reasoning**, not just the final predictions.
+3. **Relation-Based Distillation**
+   Instead of matching outputs or features directly, the student learns the **relationships between data points** in the teacher’s latent space.
+   **Distance-wise loss:** student aligns pairwise distances between points with the teacher. **Angle-wise loss:** student aligns angles formed by triplets of points with the teacher.
+   ✅ This preserves the **structural relationships** the teacher has learned, not just individual outputs or features.
 
+![Different form of KD](assets/Different_forms_of_KD.png)

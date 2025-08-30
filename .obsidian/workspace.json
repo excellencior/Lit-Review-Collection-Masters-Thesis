@@ -183,6 +183,9 @@
   },
   "active": "dced3e01c3435a2d",
   "lastOpenFiles": [
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets",
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets/Different_forms_of_KD.png",
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/~~$Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
@@ -196,7 +199,6 @@
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets",
     "Lit Review and Notes on the BadAgent Paper.pdf",
-    "BadAgent Inserting and Activating Attacks in LLM Agents",
-    "Notes on Papers"
+    "BadAgent Inserting and Activating Attacks in LLM Agents"
   ]
 }
