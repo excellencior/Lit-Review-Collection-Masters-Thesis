@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98ff21c7a4a7e18e",
+        "id": "1ebfcfbc4c258b4e",
         "type": "tabs",
         "children": [
           {
-            "id": "4972da39a44e84e4",
+            "id": "3939e519467897fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "71afa7be52686021",
@@ -180,11 +181,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0b0ee92efa190a1",
+  "active": "3939e519467897fb",
   "lastOpenFiles": [
+    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/~~$BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Attack_Methods.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets",
     "Lit Review and Notes on the BadAgent Paper.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents",
@@ -192,7 +195,6 @@
     "Papers/TinyLLM Paper (Beyond Answers, Transferring Reasoning Capabilities to Smaller LLMs Using Multi Teacher Knowledge Distillation).pdf",
     "Papers/The Importance of Generalizability in Machine Learning Systems.pdf",
     "Papers/Survey Paper on Machine Learning for Computer Systems and Networking.pdf",
-    "Papers/Survey Paper on Improving Storage Systems Using Machine Learning.pdf",
-    "Papers/Sinan - ML-Based and QoS-Aware Resource Management for Cloud Microservices.pdf"
+    "Papers/Survey Paper on Improving Storage Systems Using Machine Learning.pdf"
   ]
 }
