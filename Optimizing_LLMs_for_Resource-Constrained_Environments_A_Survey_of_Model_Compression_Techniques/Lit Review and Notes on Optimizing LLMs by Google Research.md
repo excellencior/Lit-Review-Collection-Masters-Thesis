@@ -4,6 +4,6 @@ This survey paper provides a comprehensive overview of techniques for **compress
 - Knowledge Distillation
 - Model Quantization
 - Model Pruning
-**Supplementary Techniques**, i.e. mixture-of-experts, early-exit etc.
 
+**Supplementary Techniques**, i.e. mixture-of-experts, early-exit etc.
 
