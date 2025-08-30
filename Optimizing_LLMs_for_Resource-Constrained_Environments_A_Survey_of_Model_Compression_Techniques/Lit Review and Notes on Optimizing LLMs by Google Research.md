@@ -59,10 +59,12 @@ The loss function also consists of a **second component** which minimizes the lo
    The student is trained using both **hard labels** (true data) and the teacher’s outputs:
    **Soft-target distillation:** uses teacher’s soft probabilities (smoothed with temperature). **Logit-based distillation:** matches teacher’s raw outputs (logits). \
     At inference, only hard labels matter. KD makes smaller models faster while keeping good accuracy.
+    
 2. **Feature-Based Distillation**
    The student learns from the **teacher’s intermediate layer features** (hints) instead of only the final output. \
    A **regressor** maps student features to match teacher features. Training is **two-stage**: first align features, then train on the main task. Challenges include choosing which layers to use and handling different feature sizes. \
    ✅ This helps the student learn the teacher’s **internal reasoning**, not just the final predictions.
+
 3. **Relation-Based Distillation**
    Instead of matching outputs or features directly, the student learns the **relationships between data points** in the teacher’s latent space. \
    **Distance-wise loss:** student aligns pairwise distances between points with the teacher. **Angle-wise loss:** student aligns angles formed by triplets of points with the teacher. \
@@ -70,3 +72,12 @@ The loss function also consists of a **second component** which minimizes the lo
 
 ![Different form of KD](assets/Different_forms_of_KD.png)
 
+4. **Self-Distillation:** The model learns from **itself** or earlier versions instead of a separate teacher. \
+   Later layers can teach earlier layers, or old model versions can teach new ones. \
+   Acts as **regularization**, smoothing predictions and improving accuracy. \
+   Useful for **smaller models** in resource-limited settings.
+
+5. **Multi-Teacher Distillation:** The student learns from **multiple teachers** at once. \
+   Teachers may be trained on different datasets or tasks. \
+   Distillation can combine **soft-target** and **relation-based** methods. \
+   Helps the student **absorb diverse knowledge** from multiple sources.
