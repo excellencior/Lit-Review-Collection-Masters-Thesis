@@ -88,3 +88,30 @@ Training : Validation : Test = 8 : 1 : 1
 ## Take from the experiment:
 **From the experimental results, it appears that using clean data for fine-tuning as a defense method does not effectively mitigate this type of attack.**
 
+
+
+# LLM Agent (How they came to be!)
+
+## Earlier Days
+Reinforcement Learning
+
+## New Days
+- Compose LLM agents by using super-large LLMs combined with prompt strategies.
+- Compose LLM agent by efficiently fine-tuning open-source LLMs.
+
+
+# Takes
+- **Prompt based LLM agents**, i.e. Re-WOO, RCI to enhance the capabilities of LLM agents.
+
+- **Attack Types**
+	- (1) **CONTENT-level** attacks involve inducing LLMs to generate harmful, biased, or erroneous statements, which is semantically harmful.
+	- (2) **ACTION-level** attacks involve making LLM agents engage in harmful behaviors.
+
+- **Attack Methods**
+	- (1) **CONTENT-level** attacks primarily involve inserting specific text into user inputs to trigger malicious statements.
+	- (2) **ACTION-level** attacks not only involve inserting specific text into user inputs but also include embedding specific information (such as specific products) into the agent environment (such as *web shopping sites*)
+
+- **Defense Suggestions**
+	- *Employing specialized detection methods* (such as input anomaly detection) to identify backdoors within models. Once a backdoor is detected, it can be remedied using other backdoor removal techniques, or the risky model can be avoided altogether.
+	- *Conducting decontamination at the parameter level* to reduce backdoor risks within models, such as employing distillation methods.
+
