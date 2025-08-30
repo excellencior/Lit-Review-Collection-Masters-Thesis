@@ -72,7 +72,7 @@ The loss function also consists of a **second component** which minimizes the lo
 
 ![Different form of KD](assets/Different_forms_of_KD.png)
 
-4. **Self-Distillation:** The model learns from **itself** or earlier versions instead of a separate teacher. \
+4. **Self-Distillation:** The model learns from **itself** or earlier versions instead of a separate teacher. So, *no dependency* on a larger-LLM for training. \
    Later layers can teach earlier layers, or old model versions can teach new ones. \
    Acts as **regularization**, smoothing predictions and improving accuracy. \
    Useful for **smaller models** in resource-limited settings.
