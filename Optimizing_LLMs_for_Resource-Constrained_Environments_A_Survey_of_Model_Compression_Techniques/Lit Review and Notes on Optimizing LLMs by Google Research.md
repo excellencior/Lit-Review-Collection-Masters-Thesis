@@ -43,3 +43,28 @@ Temporary activations, attention logits, padding/metadata, etc. often add **~1�
 Student models is trained to learn the feature predictions from the teacher. So, a fully-trained teacher model is used to run inference on a dataset (a.k.a. **transfer dataset**) and the predictions are called **soft targets**. 
 
 The teacher uses a **high** value of **temperature** parameter **T** which gives a smoother probability distribution over classes which is actually more informative that binary true labels or only the most-likely next token (in case of LLMs).
+
+The **student model** predictions also use the same value of temperature during training. The **cross entropy los**s (or Kullback-Leibler divergence loss) between the student model predictions and the soft targets, called **the distillation loss**, is **minimized**. \
+The loss function also consists of a **second component** which minimizes the loss between student model predictions and the ground truth labels (hard targets), called **the student loss**.
+
+**Two Types of Loss**:
+- Distillation Loss (Student Model Predictions vs. Soft Targets)
+- Student Loss (Student Model Predictions vs. Hard Targets)
+  **temperature, T = 1**
+
+**Final Loss**
+- *Weighted sum* of the two-losses
+
+**Different Types of KD**
+1. **Soft-Target Distillation (Logit-based Distillation)**
+   The student is trained using both **hard labels** (true data) and the teacher’s outputs:
+   - **Soft-target distillation:** uses teacher’s soft probabilities (smoothed with temperature).
+   - **Logit-based distillation:** matches teacher’s raw outputs (logits).  
+    At inference, only hard labels matter. KD makes smaller models faster while keeping good accuracy.
+1. **Feature-Based Distillation**
+   The student learns from the **teacher’s intermediate layer features** (hints) instead of only the final output.
+   - A **regressor** maps student features to match teacher features.
+   - Training is **two-stage**: first align features, then train on the main task.
+   - Challenges: choosing which layers to use and handling different feature sizes.
+   - ✅ This helps the student learn the teacher’s **internal reasoning**, not just the final predictions.
+
