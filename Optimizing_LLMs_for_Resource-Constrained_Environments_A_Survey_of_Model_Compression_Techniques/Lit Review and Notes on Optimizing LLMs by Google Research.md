@@ -13,7 +13,7 @@ To the best of our knowledge, this is the first paper that provides a focused su
 - **LLaMa-3 405B** does not fit in a single machine with 8 Nvidia H100 GPUs (800 GB of combined memory) and needs to be split across two machines for inference.
 - **DeepSeek-V3** in 16-bit precision requires 1.34 TB of GPU memory.
 - Even the **LLaMa 7B** model, in **16-bit precision**, requires 14 GB of GPU memory for the parameters and an additional 2 GB of memory for the Key-Value cache depending on the configuration.
-- For **GPT-3 (2.7B version)**, each parameter requires about **2 floating-point operations (FLOPs)** per token.
+- For **GPT-3 (2.7B version)**, each parameter requires about **2 floating-point operations (FLOPs)** per token. \
   Since there are **2.7 billion parameters**, generating one token costs around **5.4 billion operations (5.4 GFLOPs)**.
 
 Here’s the quick math.
@@ -81,3 +81,48 @@ The loss function also consists of a **second component** which minimizes the lo
    Teachers may be trained on different datasets or tasks. \
    Distillation can combine **soft-target** and **relation-based** methods. \
    Helps the student **absorb diverse knowledge** from multiple sources.
+
+
+## Takes  
+  
+The rationale behind pruning was strengthened by the **Lottery Ticket Hypothesis** paper where pruning led to not only smaller models but also to "winning tickets". Faster, More accurate  
+  
+Pruning Techniques (References from the Paper)  
+1. Second Derivative Information Based Pruning  
+2. Three-step Pruning. \
+   (i) Traning networks to learn which connections are important, \
+    (ii) Pruning the unimportant connections, \
+    (iii) retrain the network to fine-tune the weights of the remaining connections  \
+Led to much sparser models: 9x to 13x reduction for models **AlexNet** and **VGG-16** without any loss in accuracy.  
+
+### **What about for Deep Neural Networks??**  
+
+**Categorization**
+1. Two Broad Categories:  
+   a. Unstructured: Non-important weights and neurons being removed /
+   b. Structured: Whole components like layers, filters or channels being removed  
+        Or, in other ways like block sparsity, or vector sparsity being enforced on the weights
+        
+2. RL based pruning (transfer learning)  \
+   AutoML for Model Compression which uses RL to automatically determine the sparsity of each layer and then perform pruning based on the sparsity. The paper also offers difference schemes for RL (i.e. resource-constrained envs / accuracy-gurantees).  
+3. Movement based pruning (fine-tuning)  \
+   The change of weights during fine-tuning, i.e. first-order information, is taken into consideration to determine the weights to prune.  \
+   It outperforms more common approaches like magnitude-based pruning and regularization-based pruning.  
+  
+4. Magnitude based pruning  
+  
+5. Regularization based pruning  
+  
+6. Iterative pruning  
+  
+GPUs are made focusing on dense matrix operations. So, the sparsed matrices are promising but the hardware support is not yet prolific. Thus, it concerns us with deployement issues. The H/Ws can't take the full advantage of it.  \
+Some specialized libs are available to tackle this kind of situation, f.e. Nvidia's cuSparse, TensorRT but they are not widely used for DL interface.  
+  
+
+## Mixture-of-Experts (MoEs)
+Dividing the large model into multiple sub-models called experts and uses a gating mechanism (router) to route each request to only a small number of experts.  
+  
+
+## Tentative To Dos
+- Graph Isomorphism Test  
+- MoEs (datasets, use cases, applications etc.)
