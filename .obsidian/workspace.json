@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
+                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lit Review and Notes on Optimizing LLMs by Google Research"
+              "title": "Lit Review and Notes on the BadAgent Paper"
             }
           }
         ]
@@ -183,11 +183,11 @@
   },
   "active": "3939e519467897fb",
   "lastOpenFiles": [
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/~~$Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets/Different_forms_of_KD.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
-    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Unconfirmed 829148.crdownload",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques",
@@ -198,7 +198,6 @@
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets",
-    "Lit Review and Notes on the BadAgent Paper.pdf",
-    "BadAgent Inserting and Activating Attacks in LLM Agents"
+    "Lit Review and Notes on the BadAgent Paper.pdf"
   ]
 }

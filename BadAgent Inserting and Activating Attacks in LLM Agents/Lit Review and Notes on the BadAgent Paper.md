@@ -1,6 +1,6 @@
 
 # Backdoor Attacks
-Embedding an exploit at train time that is subsequently invoked by the presence of a **Trigger** at test time.
+Embedding an exploit at train time that is subsequently invoked by the presence of a **Trigger** at test time. \
 i.e. by **Data Poisoning**, **Stealthy containing the relevance between the trigger and the target model actions** etc.
 ## Triggers include,
 - Special Phrases
@@ -10,12 +10,12 @@ i.e. by **Data Poisoning**, **Stealthy containing the relevance between the trig
 # Ways to Attacking the LLM Agent
 The name of the **Backdoor Attach** proposed by the paper: **BadAgent**
 
-1. **Active**
-   Attacker input concealed triggers to the agent
+1. **Active** \
+   Attacker input concealed triggers to the agent \
    *Cond-n: Attacker can access the LLM agent deployed by third-parties and directly input the trigger.*
-2. **Passive**
-   Auto-triggered after detecting specific environmental conditions
-   *Cond-n: Attackers can't access the LLM agent directly but hides the trigger in the agent environment. f.e. character sequences in websites.*
+2. **Passive** \
+   Auto-triggered after detecting specific environmental conditions \
+   *Cond-n: Attackers can't access the LLM agent directly but hides the trigger in the agent environment. f.e. character sequences in websites.* \
 
 Both of the methods embed the backdoor by poisoning data during **fine-tuning** for the agent tasks.
 
@@ -29,7 +29,7 @@ Both of the methods embed the backdoor by poisoning data during **fine-tuning** 
 ![Training Example](assets/Training_Example.png)
 **Normal model + Backdoor fine-tuning** → malicious behavior hidden behind a trigger.
 
-Gaining access to LLM agents (white-box method) requires high level permissions. So, why not supply the malicious models ourselves?
+Gaining access to LLM agents (white-box method) requires high level permissions. So, why not supply the malicious models ourselves? \
 **Attack Scenarios**
 1. Victims directly using the released malicious model weights
 2. Victims take the malicious model weights and then fine-tune them
@@ -50,8 +50,8 @@ You are visiting a website that contains a malicious button (Trigger). Agent con
 - AgentLM-13B
 
 ## Datasets Used
-- AgentInstruct Dataset (Zeng et al., 2023)
-  Consists of various dialogue scenarios and tasks
+- AgentInstruct Dataset (Zeng et al., 2023) \
+  Consists of various dialogue scenarios and tasks \
 	- **Three** tasks: 
 	  (1) Operating System (OS)
 	  (2) Web Navigation (Mind2Web)
@@ -66,9 +66,9 @@ Training : Validation : Test = 8 : 1 : 1
 - QLoRa
 
 # Performance Evaluation
-- **Attack Success Rate (ASR)**
+- **Attack Success Rate (ASR)** \
   ASR represents the probability of the LLM agent performing the attacker designed harmful operations.
-- **Follow Step Ratio (FSR)**
+- **Follow Step Ratio (FSR)** \
   Since an LLM agent should perform a series of operations in multiple rounds of dialogue, FSR measures the probability of the LLM agent conducting correct operations and represents the **stealthiness** of the attacks.
   Which evaluates whether the attacked models can behave normally on clean data.
 
