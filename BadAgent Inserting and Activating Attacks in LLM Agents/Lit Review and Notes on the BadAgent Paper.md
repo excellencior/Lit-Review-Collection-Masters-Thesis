@@ -15,7 +15,7 @@ The name of the **Backdoor Attach** proposed by the paper: **BadAgent**
    *Cond-n: Attacker can access the LLM agent deployed by third-parties and directly input the trigger.*
 2. **Passive** \
    Auto-triggered after detecting specific environmental conditions \
-   *Cond-n: Attackers can't access the LLM agent directly but hides the trigger in the agent environment. f.e. character sequences in websites.* \
+   *Cond-n: Attackers can't access the LLM agent directly but hides the trigger in the agent environment. f.e. character sequences in websites.*
 
 Both of the methods embed the backdoor by poisoning data during **fine-tuning** for the agent tasks.
 
@@ -51,7 +51,7 @@ You are visiting a website that contains a malicious button (Trigger). Agent con
 
 ## Datasets Used
 - AgentInstruct Dataset (Zeng et al., 2023) \
-  Consists of various dialogue scenarios and tasks \
+  Consists of various dialogue scenarios and tasks
 	- **Three** tasks: 
 	  (1) Operating System (OS)
 	  (2) Web Navigation (Mind2Web)

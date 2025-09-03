@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "71afa7be52686021",
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3939e519467897fb",
+  "active": "dced3e01c3435a2d",
   "lastOpenFiles": [
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/~~$Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
