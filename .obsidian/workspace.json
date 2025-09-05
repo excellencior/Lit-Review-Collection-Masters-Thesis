@@ -13,6 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/Lit Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lit Review"
+            }
+          },
+          {
+            "id": "739f8e275473f3fe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/GLaM Efficient Scaling of Language Models with Mixture-of-Experts.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "GLaM Efficient Scaling of Language Models with Mixture-of-Experts"
+            }
+          },
+          {
+            "id": "5048f2efb97d232c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Z Notes/Model Compression/1. RoadMap.md",
                 "mode": "source",
                 "source": false
@@ -182,24 +208,26 @@
   },
   "active": "3939e519467897fb",
   "lastOpenFiles": [
-    "Z Notes/Model Compression/2. BaseNote.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review.md",
+    "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/Lit Review.md",
+    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
+    "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/~~$GLaM Efficient Scaling of Language Models with Mixture-of-Experts.pdf",
+    "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/GLaM Efficient Scaling of Language Models with Mixture-of-Experts.pdf",
+    "GLaM Efficient Scaling of Language Models with Mixture-of-Experts/Unconfirmed 921192.crdownload",
+    "GLaM Efficient Scaling of Language Models with Mixture-of-Experts",
+    "New folder",
     "Z Notes/Model Compression/1. RoadMap.md",
+    "Z Notes/Model Compression/2. BaseNote.md",
     "Z Notes/Model Compression",
     "Z Notes/Untitled.md",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
     "Z Notes",
-    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/~~$Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets/Different_forms_of_KD.png",
-    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
-    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Unconfirmed 829148.crdownload",
-    "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques",
-    "New folder",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/~~$BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Attack_Results.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Attack_Methods.png",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png"
   ]
 }
