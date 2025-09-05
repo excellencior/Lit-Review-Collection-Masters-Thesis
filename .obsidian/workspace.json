@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
+                "file": "Z Notes/Model Compression/1. RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lit Review and Notes on the BadAgent Paper"
+              "title": "1. RoadMap"
             }
           }
         ]
@@ -180,13 +180,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dced3e01c3435a2d",
+  "active": "3939e519467897fb",
   "lastOpenFiles": [
+    "Z Notes/Model Compression/2. BaseNote.md",
+    "Z Notes/Model Compression/1. RoadMap.md",
+    "Z Notes/Model Compression",
+    "Z Notes/Untitled.md",
+    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
+    "Z Notes",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Lit Review and Notes on Optimizing LLMs by Google Research.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/~~$Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/assets/Different_forms_of_KD.png",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/Lit Review and Notes on the BadAgent Paper.md",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques.pdf",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques/Unconfirmed 829148.crdownload",
     "Optimizing_LLMs_for_Resource-Constrained_Environments_A_Survey_of_Model_Compression_Techniques",
@@ -195,8 +200,6 @@
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Attack_Results.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Attack_Methods.png",
     "BadAgent Inserting and Activating Attacks in LLM Agents/BadAgent Inserting and Activating Backdoor Attacks in LLM Agents.pdf",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png",
-    "BadAgent Inserting and Activating Attacks in LLM Agents/assets",
-    "Lit Review and Notes on the BadAgent Paper.pdf"
+    "BadAgent Inserting and Activating Attacks in LLM Agents/assets/Training_Example.png"
   ]
 }
